@@ -250,8 +250,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_squared_error
 import matplotlib.pyplot as plt
 
-# Load dataset
-data = pd.read_csv('HealthData(in).csv')
 
 # Define features and target variable
 X = data.drop('charges', axis=1)
